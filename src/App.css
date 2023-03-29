@@ -1,0 +1,59 @@
+.segmentButton{
+  padding: 10px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+/* modal designs start*/
+.modal-header{
+  background-color: 	#40E0D0;
+  color:white
+}
+.modal-footer {
+  justify-content: flex-start !important;
+}
+.save{
+  background-color: #198754;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+.cancel{
+  background-color: aliceblue;
+  padding: 10px;
+  color:red;
+  border: none;
+  border-radius: 6px;
+}
+input{
+  width:80%;
+  margin: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.dropdown{
+  width:300px;
+  padding: 10px;
+  margin-left: 30px;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  width:10px;
+  height: 10px;
+  background-color: grey;
+  border-radius: 50%;
+}
+.link{
+  color:#198754
+}
+.bluediv{
+  border:1px solid blue;
+}
+/* modal designs end*/
